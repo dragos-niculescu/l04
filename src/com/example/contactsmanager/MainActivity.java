@@ -42,8 +42,15 @@ public class MainActivity extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				LinearLayout l2 = (LinearLayout)findViewById(R.id.layout2);
-				l2.setVisibility( ~ l2.getVisibility()); 
-				
+				// l2.setVisibility( ~ l2.getVisibility());
+				Button b = (Button)findViewById(R.id.buttonAdditional );	
+				if(l2.getVisibility() == 1){
+					l2.setVisibility( 0 );
+					b.setText("Show");
+				} else {
+					l2.setVisibility( 1 );
+					b.setText("Hide");
+				}
 			}
 		});
         

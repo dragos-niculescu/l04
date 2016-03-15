@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="CONTACTS_MANAGER_REQUEST_CODE">1</integer>
+    <string name="phone_error">Eroare telefon!</string>
+    
+<string-array name="url_authentication">
+    <item >http://development.com/xxxx</item>
+    <item >http://test.com/xxx</item>
+    <item >http://example.com/xxx</item>
+</string-array>
+    
+</resources>
